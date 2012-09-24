@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3983BA9515DEDF5000CB6F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983BA9415DEDF5000CB6F8C /* UIKit.framework */; };
+		3983BA9715DEDF5000CB6F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983BA9615DEDF5000CB6F8C /* Foundation.framework */; };
+		3983BA9915DEDF5000CB6F8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3983BA9815DEDF5000CB6F8C /* CoreGraphics.framework */; };
+		3983BA9F15DEDF5000CB6F8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3983BA9D15DEDF5000CB6F8C /* InfoPlist.strings */; };
+		3983BAA115DEDF5000CB6F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983BAA015DEDF5000CB6F8C /* main.m */; };
+		3983BAA515DEDF5000CB6F8C /* GraphingCalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983BAA415DEDF5000CB6F8C /* GraphingCalculatorAppDelegate.m */; };
+		3983BAA815DEDF5000CB6F8C /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3983BAA615DEDF5000CB6F8C /* iPhone.storyboard */; };
+		3983BAAB15DEDF5000CB6F8C /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3983BAA915DEDF5000CB6F8C /* iPad.storyboard */; };
+		3983BABC15DEE0C400CB6F8C /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983BAB915DEE0C400CB6F8C /* CalculatorBrain.m */; };
+		3983BABD15DEE0C400CB6F8C /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983BABB15DEE0C400CB6F8C /* CalculatorViewController.m */; };
+		3983BAC015DEE41900CB6F8C /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983BABF15DEE41900CB6F8C /* GraphViewController.m */; };
+		3983BAC315DEE45200CB6F8C /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983BAC215DEE45200CB6F8C /* GraphView.m */; };
+		3983BACA15DEE82F00CB6F8C /* AxesDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3983BAC915DEE82F00CB6F8C /* AxesDrawer.m */; };
+		39CFF52B15E1589C00E6FCD8 /* RotatableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CFF52915E1589C00E6FCD8 /* RotatableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3983BA9015DEDF5000CB6F8C /* GraphingCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GraphingCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3983BA9415DEDF5000CB6F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3983BA9615DEDF5000CB6F8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3983BA9815DEDF5000CB6F8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3983BA9C15DEDF5000CB6F8C /* GraphingCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraphingCalculator-Info.plist"; sourceTree = "<group>"; };
+		3983BA9E15DEDF5000CB6F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3983BAA015DEDF5000CB6F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3983BAA215DEDF5000CB6F8C /* GraphingCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GraphingCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		3983BAA315DEDF5000CB6F8C /* GraphingCalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphingCalculatorAppDelegate.h; sourceTree = "<group>"; };
+		3983BAA415DEDF5000CB6F8C /* GraphingCalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraphingCalculatorAppDelegate.m; sourceTree = "<group>"; };
+		3983BAA715DEDF5000CB6F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		3983BAAA15DEDF5000CB6F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPad.storyboard; sourceTree = "<group>"; };
+		3983BAB815DEE0C400CB6F8C /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		3983BAB915DEE0C400CB6F8C /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		3983BABA15DEE0C400CB6F8C /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		3983BABB15DEE0C400CB6F8C /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		3983BABE15DEE41900CB6F8C /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		3983BABF15DEE41900CB6F8C /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		3983BAC115DEE45200CB6F8C /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		3983BAC215DEE45200CB6F8C /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		3983BAC815DEE82F00CB6F8C /* AxesDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxesDrawer.h; sourceTree = "<group>"; };
+		3983BAC915DEE82F00CB6F8C /* AxesDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxesDrawer.m; sourceTree = "<group>"; };
+		39CFF52815E1589C00E6FCD8 /* RotatableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatableViewController.h; sourceTree = "<group>"; };
+		39CFF52915E1589C00E6FCD8 /* RotatableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatableViewController.m; sourceTree = "<group>"; };
+		39CFF52A15E1589C00E6FCD8 /* SplitViewBarButtonItemPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitViewBarButtonItemPresenter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3983BA8D15DEDF5000CB6F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983BA9515DEDF5000CB6F8C /* UIKit.framework in Frameworks */,
+				3983BA9715DEDF5000CB6F8C /* Foundation.framework in Frameworks */,
+				3983BA9915DEDF5000CB6F8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3983BA8515DEDF5000CB6F8C = {
+			isa = PBXGroup;
+			children = (
+				3983BA9A15DEDF5000CB6F8C /* GraphingCalculator */,
+				3983BA9315DEDF5000CB6F8C /* Frameworks */,
+				3983BA9115DEDF5000CB6F8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3983BA9115DEDF5000CB6F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3983BA9015DEDF5000CB6F8C /* GraphingCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3983BA9315DEDF5000CB6F8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3983BA9415DEDF5000CB6F8C /* UIKit.framework */,
+				3983BA9615DEDF5000CB6F8C /* Foundation.framework */,
+				3983BA9815DEDF5000CB6F8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3983BA9A15DEDF5000CB6F8C /* GraphingCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				3983BAA915DEDF5000CB6F8C /* iPad.storyboard */,
+				3983BAA615DEDF5000CB6F8C /* iPhone.storyboard */,
+				3983BAA315DEDF5000CB6F8C /* GraphingCalculatorAppDelegate.h */,
+				3983BAA415DEDF5000CB6F8C /* GraphingCalculatorAppDelegate.m */,
+				39CFF52815E1589C00E6FCD8 /* RotatableViewController.h */,
+				39CFF52915E1589C00E6FCD8 /* RotatableViewController.m */,
+				39CFF52A15E1589C00E6FCD8 /* SplitViewBarButtonItemPresenter.h */,
+				3983BABA15DEE0C400CB6F8C /* CalculatorViewController.h */,
+				3983BABB15DEE0C400CB6F8C /* CalculatorViewController.m */,
+				3983BAB815DEE0C400CB6F8C /* CalculatorBrain.h */,
+				3983BAB915DEE0C400CB6F8C /* CalculatorBrain.m */,
+				3983BABE15DEE41900CB6F8C /* GraphViewController.h */,
+				3983BABF15DEE41900CB6F8C /* GraphViewController.m */,
+				3983BAC115DEE45200CB6F8C /* GraphView.h */,
+				3983BAC215DEE45200CB6F8C /* GraphView.m */,
+				3983BAC815DEE82F00CB6F8C /* AxesDrawer.h */,
+				3983BAC915DEE82F00CB6F8C /* AxesDrawer.m */,
+				3983BA9B15DEDF5000CB6F8C /* Supporting Files */,
+			);
+			path = GraphingCalculator;
+			sourceTree = "<group>";
+		};
+		3983BA9B15DEDF5000CB6F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3983BA9C15DEDF5000CB6F8C /* GraphingCalculator-Info.plist */,
+				3983BA9D15DEDF5000CB6F8C /* InfoPlist.strings */,
+				3983BAA015DEDF5000CB6F8C /* main.m */,
+				3983BAA215DEDF5000CB6F8C /* GraphingCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3983BA8F15DEDF5000CB6F8C /* GraphingCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3983BAB115DEDF5000CB6F8C /* Build configuration list for PBXNativeTarget "GraphingCalculator" */;
+			buildPhases = (
+				3983BA8C15DEDF5000CB6F8C /* Sources */,
+				3983BA8D15DEDF5000CB6F8C /* Frameworks */,
+				3983BA8E15DEDF5000CB6F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphingCalculator;
+			productName = GraphingCalculator;
+			productReference = 3983BA9015DEDF5000CB6F8C /* GraphingCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3983BA8715DEDF5000CB6F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GraphingCalculator;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Arman Shan";
+			};
+			buildConfigurationList = 3983BA8A15DEDF5000CB6F8C /* Build configuration list for PBXProject "GraphingCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3983BA8515DEDF5000CB6F8C;
+			productRefGroup = 3983BA9115DEDF5000CB6F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3983BA8F15DEDF5000CB6F8C /* GraphingCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3983BA8E15DEDF5000CB6F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983BA9F15DEDF5000CB6F8C /* InfoPlist.strings in Resources */,
+				3983BAA815DEDF5000CB6F8C /* iPhone.storyboard in Resources */,
+				3983BAAB15DEDF5000CB6F8C /* iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3983BA8C15DEDF5000CB6F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3983BAA115DEDF5000CB6F8C /* main.m in Sources */,
+				3983BAA515DEDF5000CB6F8C /* GraphingCalculatorAppDelegate.m in Sources */,
+				3983BABC15DEE0C400CB6F8C /* CalculatorBrain.m in Sources */,
+				3983BABD15DEE0C400CB6F8C /* CalculatorViewController.m in Sources */,
+				3983BAC015DEE41900CB6F8C /* GraphViewController.m in Sources */,
+				3983BAC315DEE45200CB6F8C /* GraphView.m in Sources */,
+				3983BACA15DEE82F00CB6F8C /* AxesDrawer.m in Sources */,
+				39CFF52B15E1589C00E6FCD8 /* RotatableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3983BA9D15DEDF5000CB6F8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3983BA9E15DEDF5000CB6F8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3983BAA615DEDF5000CB6F8C /* iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3983BAA715DEDF5000CB6F8C /* en */,
+			);
+			name = iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3983BAA915DEDF5000CB6F8C /* iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3983BAAA15DEDF5000CB6F8C /* en */,
+			);
+			name = iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3983BAAF15DEDF5000CB6F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3983BAB015DEDF5000CB6F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3983BAB215DEDF5000CB6F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraphingCalculator/GraphingCalculator-Prefix.pch";
+				INFOPLIST_FILE = "GraphingCalculator/GraphingCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3983BAB315DEDF5000CB6F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GraphingCalculator/GraphingCalculator-Prefix.pch";
+				INFOPLIST_FILE = "GraphingCalculator/GraphingCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3983BA8A15DEDF5000CB6F8C /* Build configuration list for PBXProject "GraphingCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3983BAAF15DEDF5000CB6F8C /* Debug */,
+				3983BAB015DEDF5000CB6F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3983BAB115DEDF5000CB6F8C /* Build configuration list for PBXNativeTarget "GraphingCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3983BAB215DEDF5000CB6F8C /* Debug */,
+				3983BAB315DEDF5000CB6F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3983BA8715DEDF5000CB6F8C /* Project object */;
+}
